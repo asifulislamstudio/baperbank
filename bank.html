@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Your Account </title>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl  font-semibold text-center mt-4">Get Some <span class="font-bold text-amber-600">Mooooooney</span>!!!</h1>
+    </header>
+    <main class=" mx-4 md:max-w-screen-xl md:mx-auto">
+        <section class="grid grid-col-1 md:grid-cols-3 gap-4 rounded-lg  text-3xl my-8">
+            <div class="bg-slate-600 text-white p-12 rounded-xl ">
+                <h2 class="font-medium">Deposite</h2>
+                <h2 class="font-medium text-4xl">$<span id="deposit-box">00</span></h2>
+            </div>
+            <div class="bg-green-800 text-white p-12 rounded-xl ">
+                <h2 class="font-medium">Withdraw</h2>
+                <h2 class="font-medium text-4xl">$ <span id="withdraw-box">00</span></h2>
+            </div>
+            <div class="bg-amber-500 text-white p-12 rounded-xl ">
+                <h2 class="font-medium">Balance</h2>
+                <h2 class="font-medium text-4xl">$<span id="total-balance-box">1250</span></h2>
+            </div>
+        </section>
+        <!-- section 2 -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg  text-3xl my-8">
+            <div class="bg-rose-600 text-white p-12 rounded-xl ">
+                <h2 class="font-medium mb-4">Deposit  Money</h2>
+
+                <input class="block text-xl mb-5 bg-zinc-50 border2 border-white w-9/12 h-10 text-black px-4 py-6 rounded" type="number" name="" placeholder=" Deposit Your Pocket Money" id="d-f">
+           
+            <button class="bg-green-600 text-white font-medium px-8 py-4 text-xl rounded " id="d-b">Deposit</button>
+            </div>
+            <div class="bg-green-800 text-white p-12 rounded-xl ">
+                <h2 class="font-medium mb-4">Withdraw Money</h2>
+                <input class="block text-xl mb-5 py-6 bg-zinc-50 border2 border-white w-9/12 h-10 text-black px-4 rounded" type="number" name="" placeholder=" Enter Amount you Need" id="w-f">
+           
+                <button class="bg-amber-500 text-white font-medium px-8 py-4 text-xl rounded " id="w-b">Withdraw</button>
+            </div>
+          
+        
+    </main>
+    <script src="js/deposit.js"></script>
+    <script src="js/withdraw.js"></script>
+    
+    <script>
+        
+    </script>
+</body>
+</html>
