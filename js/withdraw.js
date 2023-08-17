@@ -17,7 +17,7 @@ document.getElementById('w-b').addEventListener('click', function(){
 
 
      if(withdrawMoney > convertTotalBalance || withdrawMoney < 1){
-         alert('innsufficiant Ballance')
+         alert('আপনার বাবা আপনাকে এত টাকা দেয় নাই ')
      }else{
          
         withdrawBox.innerText = finalwithdraw;
