@@ -4,7 +4,7 @@ document.getElementById('submit-btn').addEventListener('click', function(){
     const userPassword = document.getElementById('user-password')
     const password = userPassword.value
 
-    if(email === 'asif@asif.com' && password === 'asif' || email === 'anik' password === 'anik' ){
+    if(email === 'asif@asif.com' && password === 'asif' || email === 'anik' && password === 'anik' ){
         window.location.href = 'bank.html'
     }else{
     console.log('Wrond Username/password');
